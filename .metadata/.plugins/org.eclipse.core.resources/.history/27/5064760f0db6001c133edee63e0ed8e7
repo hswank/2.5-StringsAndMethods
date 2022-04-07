@@ -1,0 +1,37 @@
+
+public class StringsAndMethods {
+
+	public static void main(String[] args) {
+		capitalize("aBcDe");
+	}
+	
+	public static void capitalize(String word) {
+		String newWord = word.substring(0, 0).toUpperCase() + word.substring(1, word.length()).toLowerCase();
+		System.out.println("The word " + word + " becomes " + newWord);
+	}
+	
+	public static void wheresWaldo(String phrase) {
+		
+	}
+	
+	public static void firstThingsFirst(String a, String b) {
+		
+	}
+	
+	public static void reverse(String s) {
+		
+	}
+	
+	public static void soLong(String a, String b) {
+		
+	}
+	
+	public static void afterMath(String phrase) {
+		
+	}
+	
+	public static void letterize(String word) {
+		
+	}
+
+}

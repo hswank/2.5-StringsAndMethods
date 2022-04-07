@@ -1,0 +1,44 @@
+
+public class StringsAndMethods {
+
+	public static void main(String[] args) {
+		capitalize("aBcDe");
+		wheresWaldo("Where in the world is Waldo");
+		firstThingsFirst("blanket", "panda");
+	}
+	
+	public static void capitalize(String word) {
+		String newWord = word.substring(0, 1).toUpperCase() + word.substring(1, word.length()).toLowerCase();
+		System.out.println("The word " + word + " becomes " + newWord);
+	}
+	
+	public static void wheresWaldo(String phrase) {
+		int waldoIndex = phrase.indexOf("Waldo");
+		System.out.println("In the phrase \"" + phrase + "\" Waldo appears at index " + waldoIndex);
+	}
+	
+	public static void firstThingsFirst(String a, String b) {
+		if (a.charAt(0) < b.charAt(0)) {
+			System.out.println(a + " " + b);
+		} else {
+			System.out.println(b + " " + a);
+		}
+	}
+	
+	public static void reverse(String s) {
+		
+	}
+	
+	public static void soLong(String a, String b) {
+		
+	}
+	
+	public static void afterMath(String phrase) {
+		
+	}
+	
+	public static void letterize(String word) {
+		
+	}
+
+}
